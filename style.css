@@ -1,0 +1,12 @@
+.box {
+  width: 200px;
+  height: 100px;
+  background: lightgray;
+  transition: 0.2s;
+}
+
+/* Класс, который будем переключать */
+.box.active {
+  background: orange;
+  border-radius: 20px;
+}
